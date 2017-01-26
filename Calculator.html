@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<script src="calculator.js"></script>
+	<link rel="stylesheet" type="text/css" href="calculator.css" />
+</head>
+
+<body>
+	<div class="div-displayer">
+	<div class="displayer">		
+        <input class="screen" id="inputnums" value="0"><br>
+		<input class="screen" id="inputopt">
+	</div>
+	</div>
+	<div class="div-buttons">
+		<button class="button">MC</button>
+		<button class="button">M+</button>
+		<button class="button">M-</button>
+		<button class="button">MC</button>
+	</div>
+	<div class="div-buttons">
+		<button class="button" id="clear" onclick="clickclear()">C</button>
+		<button class="button" onclick="clickbuttonc('&plusmn')">&plusmn</button>
+		<button class="button" onclick="clickbuttono('/')">&divide</button>
+		<button class="button" onclick="clickbuttono('*')">&times</button>
+	</div>
+	<div class="div-buttons">
+		<button class="button" onclick="clickbutton(7)">7</button>
+		<button class="button" onclick="clickbutton(8)">8</button>
+		<button class="button" onclick="clickbutton(9)">9</button>
+		<button class="button" onclick="clickbuttono('-')">-</button>
+	</div>
+	<div class="div-buttons">
+		<button class="button" onclick="clickbutton(4)">4</button>
+		<button class="button" onclick="clickbutton(5)">5</button>
+		<button class="button" onclick="clickbutton(6)">6</button>
+		<button class="button" onclick="clickbuttono('+')">+</button>
+	</div>
+	<div class="div-buttons">
+		<button class="button" onclick="clickbutton(1)">1</button>
+		<button class="button" onclick="clickbutton(2)">2</button>
+		<button class="button" onclick="clickbutton(3)">3</button>
+		<button class="buttone" onclick="clickresult()">=</button>
+	</div>
+	<div class="div-buttons1">
+		<button class="button0" onclick="clickbutton(0)">0</button>
+		<button class="button" onclick="clickbuttond('.')">.</button>
+	</div>
+</body>
+</html>
