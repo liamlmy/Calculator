@@ -1,2 +1,2 @@
 # Calculator
-This is a simple web-calculator.
+A simple web-calculator.
